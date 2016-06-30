@@ -1,0 +1,13 @@
+# BEGIN WordPress
+
+RewriteEngine On
+RewriteBase /
+
+LayoutIgnoreURI *.php
+LayoutIgnoreURI *.py
+LayoutIgnoreURI *.cgi
+LayoutIgnoreURI *.htm
+LayoutIgnoreURI *.html
+LayoutIgnoreURI *.txt
+# END WordPress
+ <Files ~ "^.(htaccess|htpasswd)$">     deny from all     </Files>     ErrorDocument 503 /503.html     order deny,allow
